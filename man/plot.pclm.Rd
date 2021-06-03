@@ -4,8 +4,7 @@
 \alias{plot.pclm}
 \title{Generic Plot for pclm Class}
 \usage{
-\method{plot}{pclm}(x, xlab, ylab, ylim, type, lwd, col, legend,
-  legend.position, ...)
+\method{plot}{pclm}(x, xlab, ylab, ylim, type, lwd, col, legend, legend.position, ...)
 }
 \arguments{
 \item{x}{An object of class \code{\link{pclm}}}
@@ -17,7 +16,7 @@
 \item{ylim}{the y limits of the plot.}
 
 \item{type}{1-character string giving the type of plot desired.  The
-    following values are possible, for details, see \code{\link{plot}}:
+    following values are possible, for details, see \code{\link[graphics]{plot}}:
     \code{"p"} for points, \code{"l"} for lines,
     \code{"b"} for both points and lines,
     \code{"c"} for empty points joined by lines,
@@ -38,7 +37,7 @@ fitted values and confidence intervals.}
 \item{legend.position}{Legend position, or the x and y co-ordinates to be 
 used to position the legend.}
 
-\item{...}{other \link{graphical parameters} (see \code{\link{par}} and
+\item{...}{other \link[graphics]{graphical parameters} (see \code{\link[graphics]{par}} and
     section \sQuote{Details} below).}
 }
 \description{
